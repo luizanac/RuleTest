@@ -1,0 +1,8 @@
+{
+    "IdEntrega": 1234566788,
+    "IdUnidadeNegocio": 74,
+    "PontoControle": {
+        "DataOcorrencia": "2022-11-26T21:56:00.0000000",
+        "IdPontoControle": "ABC"
+    }
+}

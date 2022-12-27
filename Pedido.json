@@ -1,0 +1,10 @@
+﻿{
+  "idPedido": 123456789,
+  "valorTotal": 7016.20,
+  "destinatario": {
+    "nome": "MARLENE TESTE TESTANDO",
+    "endereco": {
+      "uf": "RS"
+    }
+  }
+}

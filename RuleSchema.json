@@ -1,0 +1,20 @@
+﻿{
+  "WorkflowName": "Discount",
+  "Rules": [
+    {
+      "RuleName": "GiveDiscount30",
+      "SuccessEvent": "30",
+      "Expression": "pedido.ValorTotal >= 5000"
+    },
+    {
+      "RuleName": "GiveDiscount25",
+      "SuccessEvent": "25",
+      "Expression": "pedido.Destinatario.Nome.Contains(\"MARLENE\")"
+    },
+    {
+      "RuleName": "GiveDiscount20",
+      "SuccessEvent": "20",
+      "Expression": "pedido.Destinatario.Endereco.Uf == \"RS\""
+    }
+  ]
+}
